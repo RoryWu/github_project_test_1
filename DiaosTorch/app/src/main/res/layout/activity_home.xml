@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_view"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/torch_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/black"
+        />
+
+    <ImageView
+        android:id="@+id/torch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flashlight"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        />
+
+    <ImageView
+        android:id="@+id/all_function_btn"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/ic_action_settings"
+        />
+
+</RelativeLayout>
